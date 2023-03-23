@@ -2,9 +2,10 @@
 
 # IceCube - Neutrinos in Deep Ice
 
+A competition that aims to identify the direction from which neutrinos detected by the IceCube neutrino observatory came. The purpose of this task is to help partner observatories limit their search space and associate neutrinos with sources like supernovae or gamma-ray bursts. The challenge is to process a large number of events quickly and accurately.
+
 ## Dataset
 
-The dataset described is for a competition that aims to identify the direction from which neutrinos detected by the IceCube neutrino observatory came. The purpose of this task is to help partner observatories limit their search space and associate neutrinos with sources like supernovae or gamma-ray bursts. The challenge is to process a large number of events quickly and accurately.
 
 The dataset is divided into training and testing sets, stored in Parquet format, and contains the following files:
 
