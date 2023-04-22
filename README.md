@@ -32,14 +32,14 @@ The notebook is organized as follows:
 
 1. **Imports:** Importing necessary libraries and modules.
 2. **Look at the data:** Exploring the dataset by printing filenames, shapes, and looking at the contents.
-3. **Model:** Defining the custom data generator class IceCubeDataGenerator and implementing the custom metric function angular_dist_score.
+3. **Model:** Defining the custom data generator class `IceCubeDataGenerator` and implementing the custom metric function `angular_dist_score`.
 4. **Build the model:** Defining the model architecture using a combination of Conv1D, Bidirectional LSTM, GlobalAveragePooling1D, and Dense layers.
 5. **Training:** Setting up a train data generator and training the model.
 6. **Prediction:** Defining a function to get predictions on the test dataset using the trained model.
-7. **Submission:** Aggregating the predicted azimuth and zenith angles for each event_id and saving the aggregated predictions to a CSV file.
+7. **Submission:** Aggregating the predicted `azimuth` and `zenith` angles for each event_id and saving the aggregated predictions to a CSV file.
 
 The model is built using TensorFlow and Keras, with a combination of Conv1D, Bidirectional LSTM, GlobalAveragePooling1D, Dense, and Dropout layers. The custom metric, `angular_dist_score`, is used to evaluate the model. The model is then trained for 4 epochs using the custom data generator.
 
-After training, the model is used to predict azimuth and zenith angles on the test dataset. The predictions are aggregated by averaging for each event_id and saved in a CSV file for submission.
+After training, the model is used to predict `azimuth` and `zenith` angles on the test dataset. The predictions are aggregated by averaging for each event_id and saved in a CSV file for submission.
 
 <done>
