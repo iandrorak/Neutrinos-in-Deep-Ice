@@ -1,1 +1,7 @@
 models/
+LSTMConv1.ipynb
+LSTMConv2.ipynb
+AutoMLFail.ipynb
+BaseModelFail.ipynb
+GNN.ipynb
+GNNTry2.ipynb
