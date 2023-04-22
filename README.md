@@ -2,7 +2,9 @@
 
 # IceCube - Neutrinos in Deep Ice
 
-This is a competition from Kaggle that aims to identify the direction from which neutrinos detected by the IceCube neutrino observatory came. The purpose of this task is to help partner observatories limit their search space and associate neutrinos with sources like supernovae or gamma-ray bursts. The challenge is to process a large number of events quickly and accurately.
+This is my notebook for the Neutrino in deep ice challenge
+
+It is a competition from Kaggle that aims to identify the direction from which neutrinos detected by the IceCube neutrino observatory came. The purpose of this task is to help partner observatories limit their search space and associate neutrinos with sources like supernovae or gamma-ray bursts. The challenge is to process a large number of events quickly and accurately.
 
 ## Dataset
 
