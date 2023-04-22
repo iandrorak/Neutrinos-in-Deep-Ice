@@ -11,13 +11,13 @@ It is a competition from Kaggle that aims to identify the direction from which n
 
 The dataset is divided into training and testing sets, stored in Parquet format, and contains the following files:
 
-* [train/test]_meta.parquet: Contains metadata for the events, including event ID, batch ID, and first/last pulse index. The target variables are the azimuth and zenith angles.
+* [train/test]_meta.parquet: Contains metadata for the events, including `event_ID`, `batch_ID`, and first/last pulse index. The target variables are the azimuth and zenith angles.
 
-* [train/test]/batch_[n].parquet: Each batch contains tens of thousands of events. Each event may have thousands of pulses, which are the digitized output from photomultiplier tubes. The pulses' data include event ID, time, sensor ID, charge, and an auxiliary flag.
+* [train/test]/batch_[n].parquet: Each batch contains tens of thousands of events. Each event may have thousands of pulses, which are the digitized output from photomultiplier tubes. The pulses' data include `event_ID`, `time`, `sensor_ID`, `charge`, and an `auxiliary` flag.
 
-* sample_submission.parquet: An example submission file with the correct columns and properly ordered event IDs. The final submission must be in CSV format.
+* `sample_submission.parquet`: An example submission file with the correct columns and properly ordered event IDs. The final submission must be in CSV format.
 
-* sensor_geometry.csv: Provides the x, y, and z positions for each of the 5160 IceCube sensors in meters, with the origin at the center of the IceCube detector. The coordinate system is right-handed, and the z-axis points upwards when standing at the South Pole. Azimuth and zenith angles can be calculated from these coordinates.
+* `sensor_geometry.csv`: Provides the `x`, `y`, and `z` positions for each of the 5160 IceCube sensors in meters, with the origin at the center of the IceCube detector. The coordinate system is right-handed, and the z-axis points upwards when standing at the South Pole. `azimuth` and `zenith` angles can be calculated from these coordinates.
 
 Example event image, a visual representation of the features of an IceCube event in the dataset. 
 The colorful dots represent sensors that logged at least one pulse, with the size of the dots corresponding to the total charge of all pulses and the color indicating the time of the first pulse.
